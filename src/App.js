@@ -1,6 +1,8 @@
 import { MyComponent } from './components/MyComponent';
 import { TrainerForm } from './components/TrainerForm';
 import './App.css';
+import  Counter from './components/Counter';
+import {SignIn} from './components/SignIn';
 import React, {useState} from 'react'
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
 
   return (
 
-    <div>Hola Buenas!!!</div>
+    <SignIn/>
     
   );
 }
